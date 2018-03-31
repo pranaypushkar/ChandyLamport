@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Nodes>
+  <Node>
+    <NodeID>1</NodeID>
+    <NodeValue>100</NodeValue>
+    <InBoundNodes>
+      <NodeID>2</NodeID>
+      <NodeID>3</NodeID>
+    </InBoundNodes>
+    <OutBoundNodes>
+      <NodeID>2</NodeID>
+      <NodeID>3</NodeID>
+    </OutBoundNodes>
+  </Node>
+  <Node>
+    <NodeID>2</NodeID>
+    <NodeValue>200</NodeValue>
+    <InBoundNodes>
+      <NodeID>1</NodeID>
+      <NodeID>3</NodeID>
+    </InBoundNodes>
+    <OutBoundNodes>
+      <NodeID>1</NodeID>
+      <NodeID>3</NodeID>
+    </OutBoundNodes>
+  </Node>
+  <Node>
+    <NodeID>3</NodeID>
+    <NodeValue>300</NodeValue>
+    <InBoundNodes>
+      <NodeID>1</NodeID>
+      <NodeID>2</NodeID>
+    </InBoundNodes>
+    <OutBoundNodes>
+      <NodeID>1</NodeID>
+      <NodeID>2</NodeID>
+    </OutBoundNodes>
+  </Node>
+</Nodes>
